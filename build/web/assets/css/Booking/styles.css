@@ -1,0 +1,540 @@
+  .header {
+    height: 60px;
+    padding: 0;
+    display: block;
+    z-index: unset;
+  }
+  
+  .section {
+    display: block;
+  }
+  
+  .mainBooking{
+      padding:6rem 0;
+      background-color: #f5f5f5;
+  }
+  
+  .checkout {
+    background-color: #f5f5f5;
+    border-radius: 8px;
+  }
+
+  .wrapper{
+    padding: 0 5rem;
+    background-color: #f5f5f5;
+    display: grid;
+    grid-template-columns: 70% 30%;
+  }
+
+  .boxLeft, .boxRight{
+    background-color: white;
+    height: 100%;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 8px;
+  }
+
+  .boxLeft p{
+    padding: 3% 1%;
+  }
+
+  .boxRight{
+    position: relative;
+  }
+
+  .wrapperRight{
+    border-radius: 8px;
+    background-color: white;
+    position: absolute;
+    padding: 1rem;
+    width: 100%;
+    right: 0;
+    top: 0;
+  }
+  
+  .formControl {
+    margin-bottom: 10px;
+  }
+  .checkoutTitle {
+    font-size: 18px;
+    padding-bottom: 1%;
+    padding-left: 1%;
+    text-transform: uppercase;
+  }
+  
+  .checkout h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 18px;
+    margin-bottom: 60px;
+  }
+  
+  .checkout-name {
+    font-size: 28px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+  
+  .pink-color:hover {
+    color: #1ec6b6;
+    text-decoration: none;
+  }
+  
+  .formControl {
+    min-height: 48px;
+  }
+  
+  .checkout .people-count {
+    text-align: center;
+  }
+  
+  .checkout .price-group:nth-child(2) {
+    border-top: none;
+  }
+  
+  .checkout .price-group {
+    border-top: 1px solid #ececec;
+    padding: 16px 0;
+  }
+  
+  .checkout .price-group .price-value {
+    text-align: right;
+    float: right;
+    font-weight: 500;
+    padding-left: 15px;
+  }
+  
+  .checkout .price-group p {
+    display: inline-block;
+    margin: 0;
+    line-height: 25px;
+  }
+  
+  .btnCheckout{
+    display: block;
+    width: 100%;
+    text-transform: uppercase;
+    height: 50px;
+    line-height: 50px;
+    margin-top: 25px;
+    line-height: 50%;
+    border-radius: 0.5rem;
+    border: none;
+    text-align: center;
+  }
+
+  .checkout .btn-checkout {
+    display: block;
+    width: 100%;
+    text-transform: uppercase;
+    height: 50px;
+    line-height: 50px;
+    margin-top: 25px;
+    line-height: 50%;
+  }
+  
+  .checkout .price-group .price-name i {
+    margin-right: 5px;
+    text-align: center;
+    width: 18px;
+    font-size: 14px;
+    opacity: 0.6;
+  }
+  
+  .btnContent{
+    padding: 1rem 0;
+  }
+
+  .contentP{
+    padding-bottom: 5%;
+  }
+
+  .wrapperPhone{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding-bottom: 5%;
+  }
+
+  .btnPhone{
+    margin: auto;
+    width: 90%;
+    border-radius: 0.5rem;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    padding: 5%;
+  }
+
+  .h1 {
+    font-weight: 700;
+  }
+  
+  .h2 {
+    font-weight: 700;
+  }
+  
+  .h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    font-weight: 700;
+  }
+  
+  .p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+  }
+  
+  .btnPink {
+    background-color: #ff6347 !important;
+    color: white;
+  }
+  
+  .btnPink:hover {
+    background-color: #e12d36 !important;
+    color: white;
+    text-decoration: none;
+  }
+
+  .btnPlus{
+    border-radius: 0 0.5rem 0.5rem 0  ;
+    height: 42px;
+    padding: 0 1rem;
+    line-height: 42px;
+  }
+  
+  .btnMinus{
+    border-radius: 0.5rem 0 0 0.5rem;
+    height: 42px;
+    padding: 0 1rem;
+    line-height: 42px;
+  }
+  
+  .pink-color {
+    color: #e12d36;
+    text-decoration: none;
+  }
+  
+  .button,
+  input,
+  optgroup,
+  select,
+  textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+  }
+  
+  .button,
+  input {
+    overflow: visible;
+  }
+  
+  *,
+  ::after,
+  ::before {
+    box-sizing: border-box;
+  }
+  
+  .booking h2{
+    padding: 0 1rem;
+  }
+
+  .chekoutName {
+    font-size: larger;
+    margin-bottom: 1rem;
+    padding: 0 5rem;
+  }
+  
+  .formTextArea:focus{
+      outline-color:#e8e8e8;
+  }
+
+  input[type=text]:focus {
+      outline-color:#e8e8e8;
+  }
+
+  input[type=number]:focus {
+      outline-color:#e8e8e8;
+  }
+
+  input[type=tel]:focus {
+      outline-color:#e8e8e8;
+  }
+  
+  input[type="number"]::-webkit-inner-spin-button,
+  input[type="number"]::-webkit-outer-spin-button {
+      -webkit-appearance: none;
+      appearance: none;
+      margin: 0;
+  }
+  
+  input[type="hidden"] {
+    appearance: none;
+    background-color: initial;
+    cursor: default;
+    display: none !important;
+    padding: initial;
+    border: initial;
+  }
+  
+  .form {
+    display: block;
+    margin-top: 0em;
+  }
+  
+  .label {
+    display: inline-block;
+    margin-bottom: 0.5rem;
+  }
+  
+  .text-danger {
+    color: #dc3545 !important;
+  }
+  
+  .input-group {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .input-group > .custom-select:not(:first-child),
+  .input-group > .formControl:not(:first-child) {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  
+  .input-group > .custom-select:not(:last-child),
+  .input-group > .formControl:not(:last-child) {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+  
+  .input-group-btn button {
+    height: 100%;
+    border: 1px solid #ced4da;
+  }
+
+  input[type="text"]:focus {
+    border: 3px solid #fff;
+  }
+  
+  .input-group > .custom-file,
+  .input-group > .custom-select,
+  .input-group > .formControl,
+  .input-group > .formControl-plaintext {
+    position: relative;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    width: 1%;
+    margin-bottom: 0;
+    text-align: center;
+  }
+  
+  .button,
+  select {
+    text-transform: none;
+  }
+  
+  .select {
+    word-wrap: normal;
+  }
+  
+  .paymentMethod:hover {
+    color: #1ec6b6;
+    text-decoration: none;
+  }
+
+  .paymentMethod {
+    text-decoration: none;
+  }
+  
+  .textarea {
+    width: 100%;
+    overflow: auto;
+    resize: vertical;
+  }
+
+  .formGroup{
+    padding: 0 1%;
+  }
+  
+  .form-group-col:nth-last-child {
+    width: 100%;
+  }
+
+  .formRow{
+    padding-bottom: 1rem;
+  }
+
+  .formRow2{
+    width: 100%;
+    display: flex;
+    padding-bottom: 1rem;
+  }
+
+  .itemRow2{
+    flex-grow: 5;
+    padding: 0 1%;
+  }
+
+  .formRow3{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding-bottom: 1rem;
+  }
+
+  .formLeft{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 0 2%;
+  }
+
+  .formGroup3Left{
+    padding: 0 2% 0 0;
+  }
+
+  .inputGroup3Left{
+    display: flex;
+  }
+
+  .formGroup3Right{
+    padding: 0 0 0 2%;
+  }
+
+  .formRight{
+    padding: 0 2%;
+  }
+
+  .formRow4{
+    display: flex;
+    padding-bottom: 1rem;
+  }
+
+  .itemRow4{
+    padding: 0 1%;
+  }
+
+  .itemRow5{
+    padding: 0 1%;
+  }
+
+  .formControl{
+    display: block;
+    width: 100%;
+    height: calc(1.5em + 0.75rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: black;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+  
+  .formTextArea{
+    height: 10rem;
+  }
+
+  .image-group{
+    border-radius: 10px;
+    overflow: hidden;
+    height: 10rem;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .image-group img{
+    width: 100%; /* Make the image width 100% of the container */
+    height: auto; /* Allow the height to adjust automatically based on the image */
+    object-fit: contain;
+  }
+
+  .fa,
+  .fas {
+    font-weight: 900;
+  }
+  
+  .fa,
+  .far,
+  .fas {
+    font-family: "Font Awesome 5 Free";
+  }
+  
+  .fa,
+  .fab,
+  .fal,
+  .far,
+  .fas {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+  }
+  
+  .mb10 {
+    margin-bottom: 10px;
+  }
+
+  @media (max-width: 799px) {
+      .mainBooking{
+        height: 120rem;
+        padding-bottom: 120rem;
+      }
+    .wrapper{
+      position: static;
+      background-color: #f5f5f5;
+      display: grid;
+      grid-template-columns: auto;
+    }
+  }
+  
+  @media (max-width: 799px) {
+    .formRow2{
+      width: 100%;
+      display: grid;
+      grid-template-columns: auto;
+    }
+    .itemRow2{
+      padding: 0 1%;
+    }
+  }
+
+  @media (max-width: 799px) {
+    .formRow3{
+      display: grid;
+      grid-template-columns: auto;
+    }
+  }
+
+  @media (max-width: 399px) {
+    .formLeft{
+      display: flex;
+      padding: 0 1%;
+      flex-wrap: wrap; /* Display flex items in a column */
+    }
+    .formGroup3Left{
+      padding: 0;
+    }
+    .formGroup3Right{
+      padding: 0;
+    }
+  }

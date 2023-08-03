@@ -1,0 +1,365 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100;300&display=swap');
+* {
+  font-family: 'Be Vietnam Pro', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+body{
+    background-color: #f5f5f5
+}
+
+/* Start Slider */
+#slider {
+  margin-top: calc(80px + 45px);
+}
+
+.owl-dots {
+  position: absolute;
+  right: 30px;
+  bottom: 5px;
+}
+
+.owl-dot:focus {
+  outline: none;
+}
+
+#slider img {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+/* End Slider */
+
+/* Start: Main */
+/* Start Content */
+#main {
+  padding-top: 45px;
+  padding-bottom: 45px;
+  color: #222222;
+}
+
+.content-welcome-heading {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 40px;
+  /* color: tomato; */
+}
+
+.content_description {
+  line-height: 1.8;
+  margin-top: 12px;
+  font-size: 16.5px;
+}
+
+.content-container {
+  margin-top: 45px;
+}
+
+.content-title {
+  margin-bottom: 0;
+  font-size: 30px;
+  font-weight: bold;
+  color: black;
+}
+
+.content-description {
+  text-align: justify;
+  line-height: 1.8;
+  margin-top: 12px;
+}
+
+.content-welcome-link {
+  color: #222222;
+  font-weight: bold;
+}
+
+.content-welcome-link:hover {
+  color: var(-tomato-color);
+  transition: 0.3s linear;
+}
+
+.contentImage {
+    height: 10rem;
+}
+
+.content-slider-item {
+  height: 300px;
+  position: relative;
+}
+
+.content-slider-img {
+  height: 130%;
+  width: 100%;
+  border-radius: 3px;
+  object-fit: cover;
+}
+
+.content-slider-img:hover {
+  filter: blur(1px);
+  transform: scale(1.005);
+}
+
+.owl-nav {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+
+.owl-nav button.owl-prev {
+  width: 50px;
+  height: 50px;
+  background: #fff !important;
+  border-radius: 100%;
+  margin-left: -20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #ddd !important;
+}
+
+.owl-nav button.owl-next {
+  width: 50px;
+  height: 50px;
+  background: #fff !important;
+  border-radius: 100%;
+  margin-right: -20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #d6d2c4 !important;
+}
+.owl-nav button.owl-prev:focus,
+.owl-nav button.owl-next:focus {
+  outline: none;
+}
+
+.owl-nav-icon {
+  font-size: 25px;
+  font-weight: 300;
+  color: #555;
+}
+
+.content-slider-name {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #fff;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+}
+
+.content-slider-heading {
+  font-size: medium;
+  font-weight: bold;
+  padding-left: 1rem;
+  padding-top: 90%;
+}
+.content-slider-description {
+  font-weight: 400;
+  padding-left: 16px;
+}
+
+.content-promotion-img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+#suggest-slider > .owl-nav {
+  position: absolute;
+  width: 100%;
+  top: 30%;
+  transform: translateY(-35%);
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+.content-suggest-item {
+  color: #222222;
+  margin-top: 10px;
+}
+
+.content-suggest-item-link {
+  color: #222222;
+}
+
+.content-suggest-item-link .img {
+  width: 100%;
+  height: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  /* object-fit: contain; */
+  object-position: center;
+}
+
+.content-suggest-heading {
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 700;
+  margin-bottom: 0;
+  margin-top: 60px
+}
+
+.content-suggest-heading:hover {
+  color: var(-tomato-color);
+  transition: 0.3s linear;
+}
+
+.content-suggest-description {
+  margin-top: 10px;
+}
+
+.content-suggest-description .span {
+  color: #444;
+  text-align: justify;
+}
+
+.content-suggest-description .fas {
+  color: tomato;
+  margin-right: 10px;
+  float: left;
+  display: block;
+  margin-top: 3px;
+}
+.target {
+    border: 1px solid #f7f7f7;
+    -moz-box-shadow: 0 5px 20px rgba(0, 0, 0, 0.04);
+    -webkit-box-shadow: 0 5px 20px rgba(0, 0, 0, 0.04);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.04);
+    padding: 50px 25px;
+    margin-top: 30px; 
+    border-radius: 10px
+}
+
+.target:hover{
+    
+    box-shadow: 0 0 0 8px rgba(30, 198, 182, 0.15); 
+}
+
+.content-targets .target {
+  margin-top: 40px;
+}
+.content-targets .target i {
+  float: left;
+  font-size: 32px;
+  color: #000;
+  margin-right: 20px;
+}
+.content-targets .target .content {
+  overflow: hidden;
+  padding-top: 5px;
+}
+.content-targets .target .target-name {
+  font-size: 20px;
+  margin-bottom: 15px;
+  color: #000;
+  font-weight: bold
+}
+.content-targets .target p {
+  /* font-family: 'Manrope', sans-serif; */
+  font-size: 16px;
+  color: black;
+  line-height: 1.7;
+  text-align: justify;
+}
+
+/* End Content */
+
+/* End: Main */
+
+/* Start: Download App */
+.btn {
+  border-radius: 30px;
+  height: 42px;
+  padding: 0 25px;
+  line-height: 42px;
+  margin-top: 20px;
+  align-items: center;
+}
+.btn-default {
+  background-color: tomato;
+  color: white;
+  font-weight: bold;
+}
+.download-app {
+  border-bottom: 1px solid var(-gray-color);
+  padding-bottom: 45px;
+}
+
+.download-app-introduce,
+.download-app-picture {
+  margin-top: 16px;
+}
+
+.download-app-logo-svg {
+  width: 343px;
+  max-width: 100%;
+}
+
+.download-app-content {
+  margin-top: 16px;
+}
+
+.download-app-content-heading {
+  font-weight: 700;
+}
+
+.download-app-content-description {
+  margin-top: 30px;
+  text-align: justify;
+}
+
+.download-app-by-image {
+  margin-top: 45px;
+}
+
+.download-app-qrcode {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.download-app-qrcode-img {
+  width: 180px;
+  height: 180px;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.download-app-app {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.download-app-by-store {
+  display: inline-block;
+  padding-top: 14px;
+}
+
+.download-app-by-store-img {
+  width: 138px;
+}
+
+.download-app-image {
+  width: 100%;
+}
+
+/* End: Download App */
+
+/* Start: Footer */
+
+
+/*  */
+
+
+/*  */
